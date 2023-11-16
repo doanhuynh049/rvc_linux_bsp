@@ -1,0 +1,46 @@
+Making all in if
+make[1]: Entering directory '/home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr/if'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr/if'
+Making all in tp
+make[1]: Entering directory '/home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr/tp'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr/tp'
+make[1]: Entering directory '/home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr'
+Making install in if
+make[1]: Entering directory '/home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr/if'
+make[2]: Entering directory '/home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr/if'
+ /usr/bin/mkdir -p '/home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr/tmp/lib'
+ ../aarch64-poky-linux-libtool   --mode=install /usr/bin/install -c   libmmngr.la '/home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr/tmp/lib'
+aarch64-poky-linux-libtool: install: /usr/bin/install -c .libs/libmmngr.so.1.0.0 /home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr/tmp/lib/libmmngr.so.1.0.0
+aarch64-poky-linux-libtool: install: (cd /home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr/tmp/lib && { ln -s -f libmmngr.so.1.0.0 libmmngr.so.1 || { rm -f libmmngr.so.1 && ln -s libmmngr.so.1.0.0 libmmngr.so.1; }; })
+aarch64-poky-linux-libtool: install: (cd /home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr/tmp/lib && { ln -s -f libmmngr.so.1.0.0 libmmngr.so || { rm -f libmmngr.so && ln -s libmmngr.so.1.0.0 libmmngr.so; }; })
+aarch64-poky-linux-libtool: install: /usr/bin/install -c .libs/libmmngr.lai /home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr/tmp/lib/libmmngr.la
+aarch64-poky-linux-libtool: install: /usr/bin/install -c .libs/libmmngr.a /home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr/tmp/lib/libmmngr.a
+aarch64-poky-linux-libtool: install: chmod 644 /home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr/tmp/lib/libmmngr.a
+aarch64-poky-linux-libtool: install: aarch64-poky-linux-ranlib /home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr/tmp/lib/libmmngr.a
+aarch64-poky-linux-libtool: finish: PATH="/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/usr/bin:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/usr/sbin:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/bin:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/sbin:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux-musl:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/usr/bin:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/usr/sbin:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/bin:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/sbin:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux-musl:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/usr/bin:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/usr/sbin:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/bin:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/sbin:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/usr/bin/../x86_64-pokysdk-linux/bin:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux:/opt/poky/3.1.11/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux-musl:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/TortoiseSVN/bin:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/quathuynhdoan/Software/:/mnt/c/Users/qdoanhuynh/AppData/Local/Microsoft/WindowsApps:/snap/bin:/sbin" ldconfig -n /home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr/tmp/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr/tmp/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/usr/include'
+ /usr/bin/install -c -m 644 ../include/mmngr_user_private.h ../include/mmngr_user_public.h '/usr/include'
+make[2]: Leaving directory '/home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr/if'
+make[1]: Leaving directory '/home/quathd/rvc/MMNGR/mmngr_lib/libmmngr/mmngr/if'
